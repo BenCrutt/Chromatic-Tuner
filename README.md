@@ -67,7 +67,7 @@ Before completing the project each state handler upon implementation will be tes
 
 Our goals were to have the correct note and frequency being played while having an efficient UI/UX design. Our UI/UX goals were to make the navigation quick and consistent. We accomplished this by using consistent controls for each button and using the rotary encoder to select the numbers of each setting. This was a success and we made a very intuitive and fast experience for the user. Our screens transition faster than our lab2 due to the simpler background and the buttons/rotary encoder have no bouncing issues, things that we learned from the past labs. 
 
-
+<img width="1003" alt="Screen Shot 2023-01-14 at 11 48 45 AM" src="https://user-images.githubusercontent.com/122656360/212493617-220667af-29c6-475b-8d99-8510e6c92164.png">
 
 Looking at figure 1, we can see our results based on testing every note in each octave. As you can see, we made a sufficiently accurate design for about 85% of the total amount of notes. We accomplished this through trial and error and also our knowledge of how FFT is calculated. Our design correctly identified many of the on note notes, but is understandably less accurate specifically when we change the base frequency to 420 Hz. This is because it requires a greater accuracy especially in the lower octaves where our accuracy is not the best. Since it decreases our performance, we tried increasing our accuracy which led to varying results.
 
