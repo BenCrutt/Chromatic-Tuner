@@ -61,44 +61,16 @@ Before completing the project each state handler upon implementation will be tes
 
 # **Results Pictures:**
 
-** **
+<img width="926" alt="Screen Shot 2023-01-14 at 11 41 23 AM" src="https://user-images.githubusercontent.com/122656360/212493317-b8d26547-a0a4-48c7-830e-335fdf7ada0a.png">
 
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+# **Metric results:**
 
-
-![alt_text](images/image1.png "image_tooltip")
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.png "image_tooltip")
-
-
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
+Our goals were to have the correct note and frequency being played while having an efficient UI/UX design. Our UI/UX goals were to make the navigation quick and consistent. We accomplished this by using consistent controls for each button and using the rotary encoder to select the numbers of each setting. This was a success and we made a very intuitive and fast experience for the user. Our screens transition faster than our lab2 due to the simpler background and the buttons/rotary encoder have no bouncing issues, things that we learned from the past labs. 
 
 
 
+Looking at figure 1, we can see our results based on testing every note in each octave. As you can see, we made a sufficiently accurate design for about 85% of the total amount of notes. We accomplished this through trial and error and also our knowledge of how FFT is calculated. Our design correctly identified many of the on note notes, but is understandably less accurate specifically when we change the base frequency to 420 Hz. This is because it requires a greater accuracy especially in the lower octaves where our accuracy is not the best. Since it decreases our performance, we tried increasing our accuracy which led to varying results.
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image4.png "image_tooltip")
-
-
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image5.png "image_tooltip")
-
-
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image6.png "image_tooltip")
 
 
 # **Design Structure:**
